@@ -1,0 +1,127 @@
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #304338;
+}
+
+section {
+    width: 340px;
+    padding: 30px;
+    background-color: #cfd1c4;
+    margin: 50px auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+
+section nav.menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #FFBF00;
+}
+
+section article.profile {
+    width: 100%;
+    text-align: center;
+}
+section article.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+section article.profile h3 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "arial";
+    color: #304338;
+    margin-bottom: 5px;
+}
+section article.profile h4 {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "arial";
+    color: #304338;
+    margin-bottom: 30px;
+}
+section a.btnView {
+    display: block;
+    width: 180px;
+    height: 32px;
+    margin: 0px auto 20px;
+    background-color: #9f8b4e;
+    border-radius: 16px;
+    font-weight: bold;
+    font-family: "arial";
+    color: rgb(56, 54, 49);
+    line-height: 32px;
+    text-align: centor;
+
+background: linear-gradient(45deg, #FFBF00 #FFBF00);
+box-shadow: 5px 10px 20px #615d40;
+}
+
+section ul.contact {
+    margin-bottom: 25px;
+}
+section ul.contact li {
+    width: 100px;
+    padding: 10px 0px;
+}
+
+section ul.contact li i {
+    width: 20%;
+    text-align: center;
+    color: #232424;
+    font-size: 15px #cfd1c4;
+}
+section ul.contact li span {
+    font-weight: normal;
+    font-size: 15px;
+    color: #232424;
+    initial-letter: 1px;
+}
+
+section nav.others {
+    width: 100%;
+    text-align: center;
+}
+section nav.others a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+section nav.others a.on {
+    opacity: 1;
+    filter: saturate(1);
+}
+section nav.others a:nth-last-of-type(1) {
+    background-color: #715d6f;
+    box-shadow: 5px 5px 10px #4f464e;
+}
+section nav.others a:nth-last-of-type(2) {
+    background-color: #5a5b6d;
+    box-shadow: 5px 5px 10px #464450;
+}
+section nav.others a:nth-last-of-type(3) {
+    background-color: #a89b75;
+    box-shadow: 5px 5px 10px #504d41;
+}
+section nav.others a:nth-last-of-type(4) {
+    background-color: #304338;
+    box-shadow: 5px 5px 10px #1e2822;
+}
+
+/*member1*/
+body.member1 {
+    background-color: #715d6f;
+}
+body.member1 section article.profile img {
+    box-shadow: 5px 10px 20px #232424;
+}
